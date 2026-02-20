@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ramsey Agi | Cloud Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="nav">
+  <div class="logo">RA</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#journey">AWS Journey</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>Hi, I'm Ramsey</h1>
+    <p class="tagline">Cloud Practitioner • Future Cloud Engineer</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section glass">
+  <h2>About Me</h2>
+  <p>
+    I'm building my path in cloud computing with a strong focus on AWS.
+    I enjoy learning how scalable systems are designed and deployed.
+    Currently strengthening my hands-on skills through real-world projects.
+  </p>
+</section>
+
+<!-- AWS JOURNEY -->
+<section id="journey" class="section">
+  <h2>My AWS Journey</h2>
+
+  <div class="timeline">
+    <div class="card">
+      <h3>Foundation</h3>
+      <p>Completed AWS Cloud Practitioner and built strong cloud fundamentals.</p>
+    </div>
+
+    <div class="card">
+      <h3>Hands-On Phase</h3>
+      <p>Building real projects using S3, CloudFront, IAM, and serverless tools.</p>
+    </div>
+
+    <div class="card">
+      <h3>Next Goal</h3>
+      <p>Working toward AWS Solutions Architect and deeper cloud security skills.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section glass">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <h3>Static Portfolio Hosting</h3>
+      <p>Deployed a secure static website using S3 and CloudFront with HTTPS.</p>
+      <span class="tag">S3</span>
+      <span class="tag">CloudFront</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Serverless Contact Form</h3>
+      <p>Built a serverless form using API Gateway, Lambda, and DynamoDB.</p>
+      <span class="tag">Lambda</span>
+      <span class="tag">API Gateway</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Cloud Monitoring Lab</h3>
+      <p>Configured CloudWatch dashboards and alerts for EC2 monitoring.</p>
+      <span class="tag">CloudWatch</span>
+      <span class="tag">EC2</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact Me</h2>
+
+  <form class="contact-form" onsubmit="handleSubmit(event)">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
+  <p id="form-msg"></p>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Ramsey Agi • Built on AWS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
