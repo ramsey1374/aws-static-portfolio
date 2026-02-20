@@ -12,7 +12,19 @@ I designed and deployed a responsive personal portfolio using Amazon S3 and Clou
 
 ---
 
-## 🧭 Architecture
+## Live Website
+<img width="1440" height="860" alt="Screenshot 2026-02-19 at 6 55 54 PM" src="https://github.com/user-attachments/assets/cca1f328-009c-42cc-b421-71a89f0b66a5" />
+
+## S3 bucket
+<img width="1440" height="729" alt="Screenshot 2026-02-19 at 6 48 09 PM" src="https://github.com/user-attachments/assets/ed698315-fdcb-435d-a211-87f2a6d0eb28" />
+
+## Static Hosting Enabled
+<img width="1440" height="471" alt="Screenshot 2026-02-19 at 6 52 50 PM" src="https://github.com/user-attachments/assets/9ac16dec-bdc0-4156-b058-10a896b94299" />
+
+## CloudFront Distribution
+<img width="1440" height="727" alt="Screenshot 2026-02-19 at 6 45 52 PM" src="https://github.com/user-attachments/assets/cbabeb4b-f6e4-4749-b5ca-45ae019eac47" />
+
+## Architecture
 
 Browser → CloudFront → Amazon S3 → Static Files
 
